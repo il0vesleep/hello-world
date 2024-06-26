@@ -9,7 +9,6 @@ p= int(input("Введите p "))
 q= int(input("Введите q "))
 n=p*q
 f=(p-1)*(q-1)
-m=0
 for x in lst:
     if f % x !=0:
         e=x
