@@ -5,9 +5,8 @@ for i in range (2,100):
             break
     else:
         lst.append(i)
-print(lst)
-p= int(input())
-q= int(input())
+p= int(input("Введите p "))
+q= int(input("Введите q "))
 n=p*q
 f=(p-1)*(q-1)
 m=0
@@ -19,10 +18,11 @@ for x in lst:
 for da in lst:
     if da *e %f==1 and da!=e:
         d=da
-        print(d)
+        print("d",d)
         break
-p1=int(input())
+p1=int(input("Введите сообщение "))
 s=(p1**e)%n
 a = (s**d)%n
-print (p,q)
-print (s,a)
+print ("Зашифрованное сообщение ",s)
+print ("Расшифрованное сообщение ",a)
+j=int(input())
