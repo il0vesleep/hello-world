@@ -1,0 +1,11 @@
+g=int(input())
+p=int(input())
+a=int(input())
+b=int(input())
+x=6789127596547
+A=(g**a)%p
+B=(g**b)%p
+ka=(A**b)%p
+kb=(B**a)%p
+k=(g**(a*b))%p
+print(ka,kb,k)
